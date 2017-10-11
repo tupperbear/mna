@@ -244,7 +244,8 @@ section .subtitle-half h5 {
 .overlay {
     background-color: rgba(0, 0, 0, .25);
     width: 100%;
-    min-height:700px;
+    // min-height:700px;
+    height: 100%;
 }
 .overlay-fluid-block {
     background-color: rgba(0, 0, 0, 0.5);
@@ -437,11 +438,9 @@ textarea::-ms-input-placeholder
 	color:red;
 }
 
-.heading {
-    margin-bottom: 4rem;
-}
+
 .heading h3{
-    font-size:45px;
+    font-size:64px;
 	text-transform:uppercase;
 	letter-spacing:2px;
 }
@@ -459,9 +458,9 @@ textarea::-ms-input-placeholder
 .navbar-default .navbar-nav>li>a {
     color: #f1f1f1;
     text-transform: uppercase;
-	padding-top:45px;
-	padding-bottom:45px;
-	font-size:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:25px;
 	font-family:'nexa_lightregular';
 	letter-spacing:2px;
 	line-height:0;
@@ -478,9 +477,7 @@ textarea::-ms-input-placeholder
     color: red;
     background-color: transparent;
 }
-  .navbar-nav {
-    text-align: center;
-}
+
 .navbar-toggle {
     background-color:#fff;
     border:0;
@@ -551,8 +548,16 @@ textarea::-ms-input-placeholder
 	width: 100%;
 	overflow: hidden;
 }
+.portfolio-overlay {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 0px;
+
+}
 .portfolio .title h3{
 	color:#f1f1f1;
+    font-size: 45px;
+    padding-top: 100px;
 }
 .portfolio-wrapper{
 	width:100%;
@@ -579,7 +584,7 @@ textarea::-ms-input-placeholder
     left: 0;
     width: 100%;
     height: 100%;
-    position: absolute;
+    // position: absolute;
     z-index: 5;
 }
 
@@ -587,8 +592,8 @@ textarea::-ms-input-placeholder
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    position: absolute;
+    // height: 100%;
+    // position: absolute;
     z-index: 10;
 }
 
@@ -627,12 +632,8 @@ textarea::-ms-input-placeholder
 	font-size:25px;
 	font-family:'nexa_boldregular';
 }
-.contact-details .contact-category .mail h2{
-	font-size:50px;
-	font-family:'nexa_lightregular';
-}
-.contact-details .contact-category .phone h5{
-	font-size:40px;
+.contact-details .contact-category h5{
+	font-size:30px;
 	font-family:'nexa_lightregular';
 }
 .contact-details .contact-category .social a {

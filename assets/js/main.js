@@ -3,6 +3,7 @@
 
 jQuery(document).ready(function ($) {
 
+    $('#home').height($(window).height());
 	$(window).load(function () {
 		$(".loaded").fadeOut();
 		$(".preloader").delay(1000).fadeOut("slow");
@@ -48,8 +49,8 @@ jQuery(document).ready(function ($) {
         
           
             $(window).scroll(function () {
-                if ($(this).scrollTop() > 500) {
-                    $('.navbar').fadeIn(500);
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar').fadeIn(50);
                     $('.navbar').addClass('menu-bg');
 
                 } else {
